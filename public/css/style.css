@@ -1,0 +1,60 @@
+body{
+	background-color: #B6D0C0;
+	background-image: url(../images/bg_polkadot_reversed.png);
+	/*background-image: url(../images/1509645941024.png);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+#wrapper{
+    width: 75%;
+    max-width: 850px;
+    margin: 4rem auto;
+    background-color: #fff;
+    color: #333333;
+    padding: 2em;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 rgba(40, 40, 40, 0.3);
+}
+
+h1{
+   /*font-family: 'Kosugi Maru', sans-serif;  */
+   font-family: 'Dosis', sans-serif;
+   font-size: 24px;
+   font-weight: normal;
+   margin: 0 0 20px 0;
+}
+
+table{
+	width: 100%;
+}
+
+table td{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+#article-title{
+	text-align: center;
+}
+
+h2{
+	margin: 10px 0;
+}
+
+p {
+	text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+
+p img{
+	width: 100%;
+}

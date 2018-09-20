@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+
+body{
+	background-color: #B6D0C0;
+	background-image: url(../images/1456356644059_polkadot.png);
+	/*background-image: url(../images/1509645941024.png);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+nav{
+	position: fixed;
+}
+
+.menu-wrapper{
+	position: fixed;
+	max-width: 150px;
+	top: 25px;
+	left: 25px;
+	z-index: 1000;
+	perspective: 1000px;
+	perspective-origin: 50% 200%;
+	border-radius: 3px;
+	display: block;
+}
+
+.menu-trigger{
+	border: none;
+	width: 45px;
+	height: 45px;
+	text-indent: -900em;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	background-image: url(../images/burg.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 3px;
+}
+
+.menu-trigger.trigger-open{
+	display: none;
+}
+
+.menu-wrapper ul{
+	padding: 0;
+	list-style: none;
+}
+
+.menu-wrapper .menu{
+	margin: 0;
+	position: absolute;	
+	max-width: 400px;
+	overflow-y: auto;
+	max-height: 600px;
+	opacity: 0;
+	box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+	background: #FFF;
+	color: #272727;
+	border-radius: 3px;
+	backface-visibility: hidden;
+	pointer-events: none;
+}
+
+.menu-wrapper .menu.menu-display{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.menu-wrapper li{
+	position: relative;
+	display: block;
+}
+
+.menu-wrapper li a{
+	display: block;
+	position: relative;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 20px;
+	font-weight: 400;
+	color: #272727;
+	outline: none;
+	text-decoration: none;
+}
+
+.menu-wrapper li a:hover{
+	background-color: #EEE;
+}
+
+#wrapper{
+    width: 75%;
+    max-width: 850px;
+    margin: 4rem auto;
+    background-color: #FFF;
+    color: #272727;
+    padding: 2em;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 rgba(40, 40, 40, 0.3);
+}
+
+h1{
+   /*font-family: 'Kosugi Maru', sans-serif;  */
+   font-family: 'Dosis', sans-serif;
+   font-size: 24px;
+   font-weight: normal;
+   margin: 0 0 50px 0;
+}
+
+table{
+	width: 100%;
+}
+
+table td{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+#article-title{
+	text-align: center;
+}
+
+h2{
+	margin: 10px 0;
+}
+
+p {
+	text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+
+p img{
+	width: 100%;
+}
