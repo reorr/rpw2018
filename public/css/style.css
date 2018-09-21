@@ -1,3 +1,6 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
 body{
 	background-color: #BE9486;
 	background-image: url(../images/bg_polkadot_reversed.png);
@@ -18,6 +21,34 @@ body{
     padding: 2em;
     border-radius: 3px;
     box-shadow: 0 0 10px 0 rgba(40, 40, 40, 0.3);
+}
+
+#wrapper-home{
+    width: 36rem;
+    max-width: 550px;
+    background-color: #fff;
+    color: #333333;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1;
+    box-shadow: 0 0 10px 0 rgba(40, 40, 40, 0.3);
+}
+@media only screen and (max-width: 36em) {
+  #wrapper-home{
+    width: 100%;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 36em) {
+  #wrapper{
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+  }
 }
 
 h1{
@@ -46,15 +77,45 @@ table td{
 
 h2{
 	margin: 10px 0;
+  font-family: 'Dosis', sans-serif;
 }
 
 p {
 	text-align: justify;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    margin: 0 0 20px 0;
+  font-size: 18px;
+  margin: 0 0 20px 0;
 }
 
 p img{
 	width: 100%;
+}
+
+.ava img{
+  width: 10rem;
+  margin: 30px auto 10px;
+}
+
+.rpw-button{
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin: 10px;
+  display: inline-block;
+  border-style: dashed;
+  border-width: 0.5px;
+}
+
+.rpw-button:hover{  
+  box-shadow: 0 0 5px 0 rgba(80, 80, 80, 0.25);
+}
+
+.dash-line{
+  border-style: dashed;
+  border-width: 0.5px;
+  border-color: #aaa;
+  color: #aaa;
+  opacity: 0.8;
+}
+
+.tengahdong {
+  height: 100%;
 }

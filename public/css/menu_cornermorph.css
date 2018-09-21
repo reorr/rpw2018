@@ -1,21 +1,51 @@
-html, 
-body, 
-.container, 
-.content-wrap {
-	overflow: hidden;
-	width: 100%;
+html{
 	height: 100%;
 }
 
-.container {
+body{
+	min-height: 100%;
+	height: auto;
 }
 
-.content-wrap {
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
+.container,
+.content-wrap,
+.content{
+	min-height:100%; height: 100%;
+}
+
+body,
+.container,
+.content-wrap,
+.content{
+	overflow-x: hidden;
+	width: 100%;
 }
 
 .content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+}
+.content-wrapper{
+	-webkit-overflow-scrolling: touch;
 }
 
 .content::before {
